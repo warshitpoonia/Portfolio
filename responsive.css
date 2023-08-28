@@ -34,16 +34,21 @@
   }
   #instabtn > a > span {
     font-size: 2vw !important;
+    position: relative;
+    top: -2.4px;
   }
   .name {
     margin-top: 15vh;
+    
   }
   .name > h3 {
     font-size: 6vw;
   }
   .name > h5 {
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     margin-left: 1vw;
+    margin-top: -1vh;
+
   }
 
   .intro {
@@ -73,8 +78,15 @@
   }
 
   #contactbtn {
-    margin-left: 45vw;
-    padding: 8px 15px !important;
+    margin-left: 54vw;
+    padding: 0px 10px !important;
+    font-size: 3.5vw;
+    width: 24vw;
+    height: 9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3vh;
   }
 
   #menu {
@@ -152,6 +164,10 @@
   .cards > span {
     font-size: 2vw;
   }
+  .cap{
+   font-size: 3.5vw;
+}
+
 }
 
 @media only screen and (min-width: 769px) {
