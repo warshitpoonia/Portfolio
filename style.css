@@ -90,7 +90,7 @@ body {
 .circle {
   width: 11vw;
   height: 11vw;
-  background-color: red;
+  background: transparent;
   border-radius: 50%;
   border: 5px solid #fff;
 }
