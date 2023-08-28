@@ -1,0 +1,161 @@
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .left {
+    position: absolute;
+    width: 100%;
+    left: -100%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  }
+
+  .right {
+    left: 0;
+    width: 100vw;
+  }
+  .channel-banner {
+    height: 24vh;
+  }
+  .cont {
+    flex: none;
+  }
+  .circle {
+    width: 35vw;
+    height: 35vw;
+    margin-top: 18vh;
+  }
+  #instabtn {
+    width: 25vw;
+    height: 4vh;
+    margin-left: -34vw;
+    margin-top: 4vh;
+    z-index: -1;
+  }
+  #instabtn > a > span {
+    font-size: 2vw !important;
+  }
+  .name {
+    margin-top: 15vh;
+  }
+  .name > h3 {
+    font-size: 6vw;
+  }
+  .name > h5 {
+    font-size: 3.8vw;
+    margin-left: 1vw;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+  .video-frame {
+    width: 95vw;
+    height: 28vh;
+  }
+
+  .about-me > h3 {
+    position: relative;
+    left: -30vw;
+  }
+
+  .about-me > p {
+    width: 95vw;
+    position: relative;
+    left: -30vw;
+  }
+
+  .frontend {
+    margin-top: -7vh;
+  }
+  .cards {
+    width: 70%;
+  }
+
+  #contactbtn {
+    margin-left: 45vw;
+    padding: 8px 15px !important;
+  }
+
+  #menu {
+    display: initial;
+    color: #ffffffdc;
+    font-size: 7vw;
+    z-index: 99;
+    margin-left: 4vw;
+  }
+
+  .lm {
+    padding: 50px;
+  }
+
+  .linkedin-link {
+    font-size: 6vw;
+    color: #fff;
+    margin-top: 1vw;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  }
+  .github-link {
+    font-size: 6vw;
+    color: #fff;
+    margin-top: 1vw;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffffdc;
+  }
+
+  .github-link:hover {
+    transform: scale(1.1);
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  }
+  .linkedin-link:hover {
+    transform: scale(1.1);
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  }
+
+  .skills {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: 1vh;
+  }
+
+  .links {
+    margin-top: 4vh;
+  }
+  .links > h2 {
+    margin-top: -2vh;
+  }
+
+  .sk {
+    font-size: 5vw !important;
+    margin-top: 0.5vh;
+    font-family: "circular";
+    color: #ffffffdc;
+  }
+
+  .ri-linkedin-box-line {
+    font-size: 7vw !important;
+  }
+
+  .ri-github-line {
+    font-size: 7vw !important;
+  }
+  .ri-youtube-line {
+    font-size: 7vw !important;
+  }
+  .cards > span {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #menu {
+    display: none;
+  }
+}
